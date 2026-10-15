@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_description">针对数字人民币 2.1.0.1 的启动兼容实验：校验版本、原始库哈希和指令后，将已确认的环境检测终止分支转入原有报告路径。</string>
+    <string-array name="xposed_scope">
+        <item>cn.gov.pbc.dcep</item>
+    </string-array>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="local.shuzi.startupcompat"
+    android:versionCode="3"
+    android:versionName="0.2.1">
+    <uses-sdk android:minSdkVersion="27" android:targetSdkVersion="35" />
+    <queries>
+        <package android:name="cn.gov.pbc.dcep" />
+    </queries>
+    <application
+        android:allowBackup="false"
+        android:hasCode="true"
+        android:extractNativeLibs="true"
+        android:label="数字人民币启动兼容"
+        android:description="@string/module_description"
+        android:supportsRtl="true">
+        <meta-data android:name="xposedmodule" android:value="true" />
+        <meta-data android:name="xposedminversion" android:value="93" />
+        <meta-data android:name="xposeddescription" android:value="@string/module_description" />
+        <meta-data android:name="xposedscope" android:resource="@array/xposed_scope" />
+    </application>
+</manifest>
